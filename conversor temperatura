@@ -1,0 +1,16 @@
+import os 
+
+os.system("cls")
+
+print("conversor de temperatura:")
+
+celsius = float(input("digite a temperatura"))
+
+fahreheit =(9 * celsius + 160) / 5 
+
+os.system("cls")
+
+print("temperatura celsius:" , celsius)
+print("temperatura em fahreheit: " , fahreheit)
+
+
